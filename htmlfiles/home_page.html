@@ -6,22 +6,53 @@
     <title>ChadLoiseau</title>
     <style>
         h1 {
-            background-color: chartreuse;
-            text-decoration: underline;
             text-align: center;
-            border-radius: 400px;
             font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .header1 {
+            background-color: black;
+            text-emphasis-color: white;
+            color: white;
+        }
+
+        #uvu_logo {
+            width: 100px;
+            margin: auto;
+        }
+        .uvu_logo_container {
+            text-align: center;
+            background-color: green;
+            padding-top: 5px;
+        }
+        .nav:hover {
+             background-color: aqua;
+        }
+        h2 {
+            text-align: center;
+        }
+        .dates {
+            font-size: small;
+        }
+        #upbound_logo {
+            width: 100px;
+            padding-bottom: 0%;
+        }
+        ul {
+            width: auto;
         }
 
     </style>
  </head>
 
  <body>
+    <div class="header1">
     <h1>Welcome to chadloiseau.com</h1>
+</div>
     <nav>
-        <p> <a href="idealmenu.html">Ideal Menu</a></p>
-        <p><a href="Family">My Family</a></p>
-        <p><a href="Work History">Work History</a></p>
+        <a class="nav" href="idealmenu.html">Ideal Menu</a>
+        <a class="nav"href="Family">My Family</a>
+        <a class="nav" href="#Work History">Work History</a>
+        <a class="nav"href="#College">College</a>
 
      </nav>
     <h2>Here you will learn about my work history, 
@@ -33,5 +64,37 @@
         my twitter <a href="https://x.com/Chandy_Land12" alt="twitter" target="_blank">ChandyLand</a>.</p>
     <p>let's have another link to linkedin <a href="https://www.linkedin.com/in/chad-loiseau-56583493/" target="_blank">Chad Loiseau</a>.</p>
     <p>another one <a href="https://instagram.com" target="_blank">instagram</a>.</p>
+
+    <section class="workhistory">
+        <a name="Work History"></a>
+        <h2>Work History</h2>
+        <img src="https://mms.businesswire.com/media/20230428005116/en/1777633/23/Upbound_Logo_black_on_white.jpg" alt="upbound_logo" id="upbound_logo">
+        <h3>Group Prodcut Manager: Acquistion</h3>
+        <p>responseible for uptraining and onboarding new product managers</br>
+        work with data anlytics to compare and validate release results
+        <ul>
+            <li>Worked with multiple roadmapping tools to integrate new roadmap solutions for annual and quarterly planning</li>
+            <li>maintained five year roadmap for multiple products</li>
+        </ul>
+        </p>
+        <p class="dates">2022-Present</p>
+
+
+    </section>
+
+    <Section class="college">
+        <a name ="College"></a>
+    <h2> College</h2>
+    <div class="uvu_logo_container">
+    <img src="https://www.uvu.edu/marketing/images/identity_logo_square.jpg" alt="uvu_logo" id="uvu_logo">
+    </div>
+    <p>Utah Valley University</br>
+    2012-2016</br>
+    GPA...No clue, if you are truly concerned about my college GPA from eight years ago, I don't want to work for your company </p>
+    
+</Section>
+
+
+
 </body>
  </html>
