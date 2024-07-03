@@ -1,0 +1,139 @@
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.header1 {
+    background-color: lightgrey;
+    text-emphasis-color: black;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+#uvu_logo {
+    width: 100px;
+    margin: auto;
+}
+.uvu_logo_container {
+    text-align: center;
+    background-color: green;
+    padding-top: 5px;
+}
+.nav {
+    color: black;
+    font-family:'Times New Roman', Times, serif
+}
+.nav:hover {
+     background-color: white;
+}
+.navtop{
+    background-color: lightgray;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.dates {
+    font-size: small;
+    text-align: center;
+}
+#upbound_logo {
+    width: 100px;
+    padding-bottom: 0%;
+    padding-left: 0cqmax;
+}
+ul {
+    width: auto;
+    text-align: left;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+p{
+    text-align: center;
+    margin: auto;
+}
+#acima_logo {
+    width: 100px;
+    padding-left: auto;
+
+}
+#zionsbank_logo {
+    width: 100px;
+    padding-bottom: -20px;
+    margin-bottom: -100px;
+}
+#storagecraft_logo {
+    width: 120px;
+}
+#kornerstone_logo {
+    width: 130px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+h3{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+#chadmain {
+    width: 200px;
+}
+.header_image{
+    text-align: center;
+}
+.fa-brands{
+    color: black;
+    margin: auto;
+}
+.socials{
+    display: flex; /* (1) */;
+    justify-content: space-between; /* (2) or space-around or space-evenly */
+}
+.jobdescription {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.skillscontainer {
+    border: 100px;
+    border-width: 5px;
+    border-style: double;
+    position: sticky;
+    nav-right: auto;
+    float: right;
+    display: block;
+    flex-grow: inherit;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    background-color: lightgrey;
+    z-index: 1;
+    width: auto;
+    margin-top: 0px;
+}
+.leftnav {
+    border: 100px;
+    border-width: 2px;
+    border-style: double;
+    position: sticky;
+    nav-right: auto;
+    float: left;
+    display: block;
+    flex-grow: inherit;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    background-color: lightgrey;
+    z-index: 1;
+    width: auto;
+    margin-top: 0px;
+    overflow-y: auto;
+}
+#body{
+    max-width: fit-content;
+    padding-left: 200px;
+}
