@@ -22,25 +22,57 @@
         #body{
             background-color: red;
             flex-basis: 70%;
+            padding-left: 10px;
         }
         #rightNav{
             background-color: green;
             flex-basis: 15%;
+            text-align: center;
         }
         #footer{
             background-color: brown;
             height: 100px;
             display: block;
         }
+        .nav{
+            color: black;
+            width: 100%;
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+.skills{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
 
     </style>
 </head>
 <body>
     <div id="header">Header</div>
     <div id="mainSection">
-    <div id="leftNav">Left Nav</div>
-    <div id="body">Content </div>
-    <div id="rightNav">Right</div>
+        <div id="leftNav">
+            <nav class="nav">
+                    <a class="nav" href="idealmenu.html">Ideal Menu</a>
+                    <a class="nav"href="Family">My Family</a>
+                    <a class="nav" href="home page/workhistory.html">Work History</a>
+                    <a class="nav"href="#College">College</a>
+                    <a class="nav"href="homepage\feedbackform.html">Contact Me</a>
+                 </nav>
+        </div>
+        <div id="body">
+        <h1>About Me</h1>
+        <h2>Chad Loiseau</h2>    
+        </div>
+        <div id="rightNav">
+            <h1>skills</h1>
+                <li class="skills">Master Requirement Gatherer</li>
+                <li class="skills">Agile Ceremonies</li>
+                <li class="skills">Mobile Applications</li>
+        </div>
 </div>
     <div id="footer">@footer</div>
 </body>

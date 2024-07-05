@@ -18,6 +18,7 @@
 }
 #blueBorder{
     border: 2px solid lightblue;
+    border-radius: 15px;
     align-items: center;
     text-align: center;
 }
@@ -26,6 +27,7 @@
     color: black;
     width: auto;
     text-decoration: underline;
+    font-size: 1.5em;
 }
 #feedbackForm{
     text-align: left;
@@ -37,6 +39,7 @@ button{
     width: 200px;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 input, textarea{
     width: 97%;
