@@ -32,6 +32,7 @@
             margin: 10px;
             padding: 20px;
             clear: both;
+            flex: auto;
         }
         #note2{
             width: 45%;
@@ -41,6 +42,7 @@
             float: left;
             margin: 10px;
             padding: 20px;
+            flex: auto;
         }
         #note3{
             width: 30%;
@@ -89,6 +91,31 @@
     font-size: large;
     font-weight: bold;
     font-style: italic;
+}
+
+#parentContainer{
+    clear: both;
+    display: flex;
+    align-items:flex-end;
+}
+#divA, #divB, #divC{
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    word-wrap: break-word;
+}
+#divA{
+    background-color: red;
+    flex-basis: 33%;
+}
+#divB{
+    background-color: green;
+    flex-basis: 33%;
+}
+#divC{
+    background-color: blue;
+    flex-basis: 2000px;
 }
     </style>
 </head>
@@ -168,6 +195,15 @@
                     <li>Styx</li>
                 </ul>
                 </div>
+            </br>
+        <div id="parentContainer">
+            <div id="divA">1</div>
+            <div id="divB">2</div>
+            <div id="divC">
+                <h1>Header of this div</h1>
+                <p>3 adfadfadfasdf</p>
+            </div>
+        </div>
     <div id="globalFooter">
         <p id="footer">Thank you for checking out my webiste!</p>
     </div>
