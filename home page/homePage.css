@@ -137,3 +137,19 @@ h3{
     max-width: fit-content;
     padding-left: 200px;
 }
+#globalFooter {
+    background-color: gray;
+    height: 30px;
+    font-size: .8em;
+    line-height: 2em;
+}
+#footer {
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    text-shadow: 5px 5px lightblue;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
