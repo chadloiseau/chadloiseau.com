@@ -6,14 +6,6 @@
     <title>divboxmodel testing</title>
    <!-- <link rel="stylesheet" href="divboxmodel.css">-->
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        div {
-            height: 300px;
-            width: 300px;
-        }
         #boxA {
             background-color: blue;
             border: 20px solid gray;
@@ -21,10 +13,83 @@
             color: white;
             padding: 20px;
             text-align: center;
+            display: block;
+
         }
         #boxB {
-            background-color: purple;
+            background-color: purple;font: 1em sans-serif;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            display: block;
         }
+        #note{
+            width: 45%;
+            display: block;
+            background-color: gray;
+            text-align: center;
+            float: left;
+            margin: 10px;
+            padding: 20px;
+            clear: both;
+        }
+        #note2{
+            width: 45%;
+            display: block;
+            background-color: green;
+            text-align: center;
+            float: left;
+            margin: 10px;
+            padding: 20px;
+        }
+        #note3{
+            width: 30%;
+            display: block;
+            background-color: green;
+            text-align: center;
+            padding: 20px;
+            float: left;
+            margin: 10px;
+            clear: both;
+        }
+        #note4{
+            width: 30%;
+            display: block;
+            background-color: gray;
+            text-align: center;
+            padding: 20px;
+            float: left;
+            margin: auto;
+            margin: 10px;
+        }
+        #note5{
+            width: 30%;
+            display: block;
+            background-color: lightblue;
+            text-align: center;
+            padding: 20px;
+            float: left;
+            margin: auto;
+            margin: 10px;
+        }
+
+        #globalFooter {
+            clear: both;
+    background-color: gray;
+    height: 30px;
+    font-size: .8em;
+    line-height: 2em;
+}
+#footer {
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px lightblue;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
     </style>
 </head>
 <body>
@@ -32,6 +97,79 @@
     <h1>Happy Birthday To You</h1>
     <h2>Yes, happy birthday to you!</h2>
 </div>
-    <div id="boxB"></div>
+    <div id="boxB">
+        <p>trying something</p>
+    </div>
+<div id="note">
+<h1>
+    Greatest Bands Ever
+</h1>
+<ul id="bands">
+    <li>Journey</li>
+    <li>Reo Speedwagon</li>
+    <li>Goo Goo Dolls</li>
+    <li>Foreigner</li>
+    <li>The Cure</li>
+    <li>Doobie Brothers</li>
+    <li>Styx</li>
+</ul>
+</div>
+<div id="note2">
+    <h1>Greatest Bands Ever
+    </h1>
+    <ul id="bands">
+        <li>Journey</li>
+        <li>Reo Speedwagon</li>
+        <li>Goo Goo Dolls</li>
+        <li>Foreigner</li>
+        <li>The Cure</li>
+        <li>Doobie Brothers</li>
+        <li>Styx</li>
+    </ul>
+    </div>
+
+    <div id="note3">
+        <h1>
+            Greatest Bands Ever
+        </h1>
+        <ul id="bands">
+            <li>Journey</li>
+            <li>Reo Speedwagon</li>
+            <li>Goo Goo Dolls</li>
+            <li>Foreigner</li>
+            <li>The Cure</li>
+            <li>Doobie Brothers</li>
+            <li>Styx</li>
+        </ul>
+        </div>
+        <div id="note4">
+            <h1>Greatest Bands Ever
+            </h1>
+            <ul id="bands">
+                <li>Journey</li>
+                <li>Reo Speedwagon</li>
+                <li>Goo Goo Dolls</li>
+                <li>Foreigner</li>
+                <li>The Cure</li>
+                <li>Doobie Brothers</li>
+                <li>Styx</li>
+            </ul>
+            </div>
+            <div id="note5">
+                <h1>Greatest Bands Ever
+                </h1>
+                <ul id="bands">
+                    <li>Journey</li>
+                    <li>Reo Speedwagon</li>
+                    <li>Goo Goo Dolls</li>
+                    <li>Foreigner</li>
+                    <li>The Cure</li>
+                    <li>Doobie Brothers</li>
+                    <li>Styx</li>
+                </ul>
+                </div>
+    <div id="globalFooter">
+        <p id="footer">Thank you for checking out my webiste!</p>
+    </div>
 </body>
 </html>
