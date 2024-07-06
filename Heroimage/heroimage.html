@@ -44,17 +44,93 @@
   background-color: #555;
   color: white;
 }
+.heroNav{
+  align-items: center;
+  text-align: center;
+}
+.heroNav a{
+  color: white;
+  display: inline;
+  text-decoration: none;
+}
+.heroNav a:hover{
+  background-color: gray;
+}
+
+.display{
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.leftText{
+  border-right: 2px dotted blue;
+  height: 400px;
+  flex-basis: 50%;
+}
+.circle{
+  background-color: gold;
+  border:  3px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  opacity: 30%;
+  justify-content: center;
+  position: absolute;
+  vertical-align: middle;
+  background-image: url(cheese.jpg);
+}
+
+.circle img{
+  width: 20px;
+  height: 20px;
+}
+
+.circle p{
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
+.rightText{
+  height: 400px;
+  text-align: right;
+  flex-basis: 50%;
+}
+.lowerBody{
+  clear: both;
+}
     </style>
 </head>
 <body>
     <div class="hero-image">
+      <div class ="heroNav">
+        <a href="/homepage/home_page.html">HomePage</a>
+        <a href="/homepage/idealmenu.html">Ideal Menu</a>
+        <a href="/HomepageLayout/homePageLayout.html">Other Home Page</a>
+        <a href="something">About Me</a>
         <div class="hero-text">
           <h1 style="font-size:50px">I am CAFFINATED</h1>
           <p>And I'm a Photographer</p>
           <a href="/homepage/workhistory.html">Resume</a>
+         </div>
         </div>
       </div>
-      
+
+    <div class="display">
+    <div class="leftText">
+      <p>Left text</p>
+      </div> 
+      <div class="circle">
+        <p>testing</p>
+        </div>
+        <div class="rightText">
+            <p>rightText</p>
+          </div>
+    </div>
+      <div class="lowerBody"> 
       <p>Page Content..</p>
+           </div>
 </body>
 </html>
