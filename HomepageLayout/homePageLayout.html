@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
     <style>
+        body{
+            height: 240vh;
+        }
         #header{
             background-color: lightgray;
             display: block;
@@ -12,20 +15,23 @@
         }
         #mainSection{
             display: flex;
-            height: 600px;
             word-wrap: break-word;
         }
         #leftNav{
-            background-color: blue;
+            border: 2px solid black;
             flex-basis: 15%;
+            height: auto;
+            /*center*/
+            padding: 5px;
         }
         #body{
-            background-color: red;
             flex-basis: 70%;
             padding-left: 10px;
+            text-align: center;
         }
         #rightNav{
-            background-color: green;
+            height: 200 px;
+            border: 2px solid black;
             flex-basis: 15%;
             text-align: center;
         }
@@ -41,12 +47,34 @@
             text-align: center;
             margin-bottom: 10px;
         }
+        .nav1{
+            position: sticky;
+            top: 3em;
+            bottom: auto;
+        }
+
 .skills{
     width: 100%;
     display: block;
     text-align: center;
     margin-bottom: 10px;
     word-wrap: break-word;
+}
+#body h1{
+    color: black;
+    text-align: center;
+}
+#body p{
+    text-align: center;
+    padding: 10px
+}
+#body img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+#headerImage{
+    text-align: center;
 }
 
     </style>
@@ -55,23 +83,32 @@
     <div id="header">Header</div>
     <div id="mainSection">
         <div id="leftNav">
-            <nav class="nav">
-                    <a class="nav" href="idealmenu.html">Ideal Menu</a>
+            <nav class="nav1">
+                    <a class="nav" href="/homepage/idealmenu.html">Ideal Menu</a>
                     <a class="nav"href="Family">My Family</a>
-                    <a class="nav" href="home page/workhistory.html">Work History</a>
+                    <a class="nav" href="/homepage/workhistory.html">Work History</a>
                     <a class="nav"href="#College">College</a>
-                    <a class="nav"href="homepage\feedbackform.html">Contact Me</a>
+                    <a class ="nav"href="/homepage/feedbackform.html">Contact Me</a>
                  </nav>
         </div>
         <div id="body">
         <h1>About Me</h1>
-        <h2>Chad Loiseau</h2>    
+        <div id="headerImage">
+        <img src="https://pbs.twimg.com/profile_images/1391428890606792705/WJC58Hbs_400x400.jpg" alt="ChadTwitterPhoto">
+    </div>
+        <p>Hello!
+            My name is Chad Loiseau. Don’t worry, most people are unsure how to pronounce that last name - it’s low-eyes-oh. And I would ​love the opportunity to join an awesome company and contribute to the work.					
+            My ability to align executives, stakeholders, and developers with existing data and customer needs has allowed me to help companies thrive. Through kanban board organization and managing our SaaS release road map, I am able to keep my team achieving, and often surpassing, their goals. Communicating expectations is key to my success as a product manager. If the stakeholders and customers know what to expect and everyone feels heard, the company runs smoothly. However, my greatest accomplishment may be that of reigning office lip sync champion.				
+            A more in-depth view of my qualifications is included on my resume. I look forward to scheduling an interview to learn more about how I can best fulfill your needs. Please contact me at your earliest convenience to set up a time for us to speak; I will provide donuts on request.	
+        </p>
         </div>
         <div id="rightNav">
             <h1>skills</h1>
                 <li class="skills">Master Requirement Gatherer</li>
                 <li class="skills">Agile Ceremonies</li>
                 <li class="skills">Mobile Applications</li>
+                <li class="skills">Stakeholder Communication</li>
+                <li class="skills">SQL</li>
         </div>
 </div>
     <div id="footer">@footer</div>
