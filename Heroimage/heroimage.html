@@ -50,8 +50,12 @@
 }
 .heroNav a{
   color: white;
-  display: inline;
   text-decoration: none;
+  width: auto;
+  float: Center;
+   padding-left: 10px;
+   padding-right: 10px;
+
 }
 .heroNav a:hover{
   background-color: gray;
@@ -62,7 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  transform: skewY(50degs);
 }
 .leftText{
   border-right: 2px dotted blue;
@@ -97,6 +101,8 @@
   height: 400px;
   text-align: right;
   flex-basis: 50%;
+  transform: skewY(-50degs);
+  border: 4px solid red;
 }
 .lowerBody{
   clear: both;
@@ -107,16 +113,16 @@
     <div class="hero-image">
       <div class ="heroNav">
         <a href="/homepage/home_page.html">HomePage</a>
-        <a href="/homepage/idealmenu.html">Ideal Menu</a>
+        <a href="/homepage/idealmenu.html">Ideal Menu</a
         <a href="/HomepageLayout/homePageLayout.html">Other Home Page</a>
         <a href="something">About Me</a>
-        <div class="hero-text">
+      </div>
+<div class="hero-text">
           <h1 style="font-size:50px">I am CAFFINATED</h1>
           <p>And I'm a Photographer</p>
           <a href="/homepage/workhistory.html">Resume</a>
          </div>
         </div>
-      </div>
 
     <div class="display">
     <div class="leftText">
