@@ -15,7 +15,7 @@
             Margin: 4em;
             background-color: white;
             display: block;
-            height: 1000px;
+            height: auto;
             border-radius: 2em;
         }
         .header{
@@ -45,19 +45,43 @@
             font-family: serif;
             margin-top: .5em;
         }
+
+        .body{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3em;
+           }
             
         .aboutMe{
-            width: 95%;
-            height: 45%;
-            margin-left: 1em;
-            margin-right: 1em;
-            margin-top: 3em;
-            border: 2px;
+            width: 60%;
+            height: auto;
+            /*margin-left: 10em;*/
+            /*margin-right: 2em;*/
+            border: 3px;
             border-style: dotted;
             border-color: black;
-            text-align: center;
-            float: center;
-            justify-content: center;
+            text-align: left;
+            font-family: serif;
+           }
+
+           .aboutMe h3{
+            text-decoration: none;
+            font-size: 1em;
+            margin: 0%;
+            margin-left: 1%;
+            font-family: serif;
+           }
+
+           .aboutMe p{
+            margin-left: 2em;
+            margin-top: 0%;
+            font-family: serif;
+           }
+           #aboutMe1{
+            margin-top: 1.5%;
+            font-family: serif;
            }
 
            .dice{
@@ -71,14 +95,14 @@
             animation-duration: 5s;
             animation-iteration-count: 1;
            }
-           @keyframes square {
+           /*@keyframes square {
             0% {left: 0px; top:0px; transform: rotate(odeg);}
             25% {left:200px; top:200px; transform: rotate (90deg);}
             50% {left:200px; top:100px; transform: rotate(180deg); }
             75% {left:100px; top:200px; transform: rotate (260deg);}
             100% {left:0px; top:0px; }
            }
-
+           */
            #number{
             animation-name: reveal;
             animation-duration: 3s;
@@ -94,7 +118,6 @@
             95% {transform: scale(0);}
             99% {transform: scale(0);}
             100% {transform: scale(200%);}
-            
            }
 
        @media only screen and (max-width: 600px){
@@ -126,16 +149,23 @@
             Margin: 2.5em;
             background-color: white;
             display: block;
-            height: 900px;
+            height: auto;
             border-radius: 2em;
 
             .aboutMe {
                 margin-top: 1.5em;
-                width: 90%;
-
+                width: 89%;
+                padding: 1px;
+                text-align: left;
+                text-wrap: wrap;
             }
         }
+        }
 
+        h1{
+            font-size: 3em;
+            text-align: center;
+            display: block;
         }
     </style>
 </head>
@@ -148,13 +178,45 @@
           <h2>--Group Product Manager</h2>
         </div>
         </div>
+        <div class="body">
         <div class="aboutMe">
-            <p>A Group Product Manager with a passion for solving complex problems and
-                communicating across multi function partners and deep-diving into analytics.
-            </p>
+            <p id="aboutMe1"> Hey there! I'm Chad Loisau, your friendly neighborhood Product 
+                Manager with a passion for crafting exceptional digital experiences. With a background deeply 
+                rooted in technology and a keen eye for innovation, I thrive on the intersection of creativity and strategy.</p>
+                
+                <h3>Fuelled by Caffeine:</h3>
+                <p>A strong cup of coffee is my morning ritual and my secret weapon 
+                for diving headfirst into the day's challenges. Whether it's brainstorming 
+                new features or fine-tuning user experiences, caffeine keeps me sharp and focused.</p>
+                
+                <h3>Driven by Sports:</h3>
+                <p>Off the clock, you'll often find me on the court or field, channeling the same 
+                team spirit and determination that fuel my work. Sports teach me valuable lessons 
+                in leadership, collaboration, and perseverance — qualities I bring to every product team I lead.</p>
+                
+                <h3>Powered by Video Games:</h3>
+                <p>As a lifelong gamer, I've developed an intuitive understanding of user engagement and interaction. Gaming isn't just a 
+                    hobby; it's a constant source of inspiration for creating intuitive interfaces and captivating experiences that resonate with users.</p>
+                
+                <h3>Why Product Management?</h3>
+                <p>I'm passionate about bridging the gap between customer needs and innovative solutions. 
+                With a knack for strategy and a knack for team leadership, I thrive on turning ideas into 
+                impactful products that delight users and drive business growth.</p>
+                
+                <h3>Let's Connect!</h3>
+                <p>Whether you're interested in discussing the latest UX trends, strategizing product 
+                roadmaps, or just chatting about the latest game releases, I'm always up for a stimulating 
+                conversation. Feel free to reach out — let's create something amazing together!</p>
         </div>
+    </div>
+    </br>
         <div class="dice">
             <p id="number">3</p>
+        </div>
+        <div class="globalFooter">
+            <script class="script">
+                document.write("<h1>Hello World</h1>");
+            </script>
         </div>
     </div>
 </body>
