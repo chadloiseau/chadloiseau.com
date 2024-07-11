@@ -45,15 +45,57 @@
             font-family: serif;
             margin-top: .5em;
         }
-
+            
         .aboutMe{
-            width: 400px;
-            height: 400px;
+            width: 95%;
+            height: 45%;
+            margin-left: 1em;
+            margin-right: 1em;
+            margin-top: 3em;
             border: 2px;
-            border-style: solid;
+            border-style: dotted;
             border-color: black;
             text-align: center;
-        }
+            float: center;
+            justify-content: center;
+           }
+
+           .dice{
+            width: 50px;
+            height: 50px;
+            border: 2px;
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            animation-name: square;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+           }
+           @keyframes square {
+            0% {left: 0px; top:0px; transform: rotate(odeg);}
+            25% {left:200px; top:200px; transform: rotate (90deg);}
+            50% {left:200px; top:100px; transform: rotate(180deg); }
+            75% {left:100px; top:200px; transform: rotate (260deg);}
+            100% {left:0px; top:0px; }
+           }
+
+           #number{
+            animation-name: reveal;
+            animation-duration: 3s;
+            animation-delay: 10s;
+            font-size: 1em;
+           }
+           @keyframes reveal {
+            0% {transform: scale(0);}
+            25% {transform: scale(0);}
+            50% {transform: scale(0);}
+            75% {transform: scale(0);}
+            85% {transform: scale(0);}
+            95% {transform: scale(0);}
+            99% {transform: scale(0);}
+            100% {transform: scale(200%);}
+            
+           }
 
        @media only screen and (max-width: 600px){
             #chadFace{
@@ -86,6 +128,12 @@
             display: block;
             height: 900px;
             border-radius: 2em;
+
+            .aboutMe {
+                margin-top: 1.5em;
+                width: 90%;
+
+            }
         }
 
         }
@@ -104,6 +152,9 @@
             <p>A Group Product Manager with a passion for solving complex problems and
                 communicating across multi function partners and deep-diving into analytics.
             </p>
+        </div>
+        <div class="dice">
+            <p id="number">3</p>
         </div>
     </div>
 </body>
