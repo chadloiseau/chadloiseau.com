@@ -18,7 +18,7 @@
             height: auto;
             border-radius: 2em;
         }
-        .header{
+        #chad{
             display: inline;
         }
 
@@ -38,12 +38,17 @@
             text-align: center;
             font-family: serif;
             padding-top: .75em;
-            margin-bottom: .5em;
+            margin-bottom: .3em;
         }
-        .header h2{
+       
+       .gpm{
             text-align: center;
-            font-family: serif;
-            margin-top: .5em;
+            padding-bottom: 1em;
+       }
+       
+        .gpm h2{
+            text-align: center;
+
         }
 
         .body{
@@ -51,7 +56,6 @@
             text-align: center;
             justify-content: center;
             align-items: center;
-            margin-top: 3em;
            }
             
         .aboutMe{
@@ -59,7 +63,7 @@
             height: auto;
             /*margin-left: 10em;*/
             /*margin-right: 2em;*/
-            border: 3px;
+            border: 2px;
             border-style: dotted;
             border-color: black;
             text-align: left;
@@ -153,7 +157,6 @@
             border-radius: 2em;
 
             .aboutMe {
-                margin-top: 1.5em;
                 width: 89%;
                 padding: 1px;
                 text-align: left;
@@ -172,11 +175,13 @@
 <body>
     <div class="whiteBackground">
         <div class="header">
-                <img src="https://media.licdn.com/dms/image/C4E03AQEPbnPcas4S9w/profile-displayphoto-shrink_400_400/0/1517543077268?e=1726099200&v=beta&t=WKrJMwtU0L2mqJ7umtIgei771Eti3iPWA0754hCOje4" alt="ChadImage" id="chadFace">
-                <div>
+            <img src="https://media.licdn.com/dms/image/C4E03AQEPbnPcas4S9w/profile-displayphoto-shrink_400_400/0/1517543077268?e=1726099200&v=beta&t=WKrJMwtU0L2mqJ7umtIgei771Eti3iPWA0754hCOje4" alt="ChadImage" id="chadFace">
+    </div>
+    <div class="chad">
           <h1 id="chadLoiseau">Chad Loiseau</h1>
-          <h2>--Group Product Manager</h2>
-        </div>
+          <div class="gpm">
+            <h2>-- Group Product Manager</h2>
+          </div> 
         </div>
         <div class="body">
         <div class="aboutMe">
@@ -218,6 +223,7 @@
                 document.write("<h1>Hello World</h1>");
             </script>
         </div>
+    </div>
     </div>
 </body>
 </html>
