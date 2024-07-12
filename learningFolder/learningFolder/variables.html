@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java Variables</title>
+</head>
+<body>
+    <div id="output"></div>
+        <script>
+            let name = "Chad";   //String
+            let age = 33;        //Interger
+            let gpa = 3.2;          // Floating
+            const hometown = "Atlanta";
+            let isChadCool = true;  //boolean 0= false 1= true
+            let family = ["Chad", "Andy", "Cece", "Lola", "Henri"]; //object
+
+            document.getElementById("output").innerHTML = name + " is " + age + " years old. and is from " + hometown;
+                //+ is concatenation
+            gpa = 4.0; //re-assigned value of GPA
+            console.log(gpa);
+            console.log("Chad is a sexy beast")
+            //hometown = "utah" -- can not change constant
+
+            document.getElementById("output").innerHTML = family;
+            console.log(gpa)
+            console.log(family)
+        </script>
+</body>
+</html>
