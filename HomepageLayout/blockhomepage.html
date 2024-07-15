@@ -7,16 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/22065692df.js" crossorigin="anonymous"></script>
     <style>
         body{
             background-color: lightblue;
         }
         .whiteBackground{
-            Margin: 4em;
             background-color: white;
             height: auto;
             border-radius: 2em;
             padding-bottom: 2em;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            width: 80%;
+
         }
 
         #chadFace{
@@ -55,7 +61,7 @@
            }
             
         .aboutMe{
-            width: 60%;
+            width: 90%;
             height: auto;
             /*margin-left: 10em;*/
             /*margin-right: 2em;*/
@@ -77,6 +83,7 @@
 
            .aboutMe p{
             margin-left: 2em;
+            margin-right: 2em;
             margin-top: 0%;
             font-family: serif;
            }
@@ -102,13 +109,6 @@
                 text-align: center;
                 font-family: serif;
         }
-                .whiteBackground{
-            Margin: 2.5em;
-            background-color: white;
-            display: block;
-            height: auto;
-            border-radius: 2em;
-
             .aboutMe {
                 width: 89%;
                 padding: 1px;
@@ -116,7 +116,7 @@
                 text-wrap: wrap;
             }
         }
-        }
+        
         @media only screen and (min-width: 1450px){
             body{
                 justify-content: center;
@@ -139,21 +139,7 @@
                 padding-top: .75em;
                 float: middle;
         }
-        }
-            .whiteBackground{
-            Margin: 2.5em;
-            background-color: white;
-            width: 80%;
-            height: auto;
-            border-radius: 2em;
-            justify-content: center;
-                }
-            .aboutMe {
-            width: 89%;
-            padding: 1px;
-            text-align: left;
-            text-wrap: wrap;
-            }
+    }
         h1{
             font-size: 3em;
             text-align: center;
@@ -161,30 +147,81 @@
         }
 
         .workPromotion{
-            width: 98%;
-            height: 400px;
-            margin-top: 2em;
+            width: 90%;
+            height: 350px;
             display: flex;
         }
         .workPromotionTextLeft{
-            flex-basis: 50%;
+            flex-basis: 48%;
             text-align: center;
             align-content: center;
+            font-family: serif;
 
         }
         .workPromotionTextRight{
+            flex-basis: 48%;
+            text-align: center;
+            align-content: center;
+            font-family: serif;
+            padding-left: 1em;
+        }
+        .workHistory{
+            background-color: lightblue;
+            width: 50%;
+            height: 4rem;
+            border-radius: 5px;
+            border: none;
+            border-color: none;
+        }
+        .workPromotionDeco{
+            flex-basis: 1%;
+            border-right: 2px dotted black ;
+        }
+
+        .socials{
+            clear: both;
+            width: 90%;
+            height: auto;
+            display: flex;
+            border-top: 2px dotted black;
+            border-right: 2px dotted black;
+            border-left: 2px dotted black;
+            border-bottom: 2px dotted black;
+        }
+        .socialLinks{
+            flex-basis: 50%;
+            text-align: center;
+            flex-wrap: wrap;
+
+        }
+        .socialLinks a{
+            color: black;
+        }
+        .socialTextRight{
             flex-basis: 50%;
             text-align: center;
             align-content: center;
-            background-color: lightgray;
-            color: whtie;
 
         }
-        .workHistory{
-            color: white;
-            background-color: orangered;
-            width: 50%;
-            height: 4rem;
+        .college{
+            clear: both;
+            width: 90%;
+            height: 250px;
+            display: flex;
+        }
+        .uvu{
+            flex-basis: 30%;
+            text-align: center;
+            align-content: center;
+        }
+        .college1{
+            flex-basis: 70%;
+            text-align: center;
+            align-content: center;
+        }
+        #uvuLogo{
+            width: 30%;
+            height: auto;
         }
         .globalFooter {
             display: inline;
@@ -199,6 +236,7 @@
             float: right;
             margin-top: -1em;
         }
+
     </style>
 </head>
 <body>
@@ -243,16 +281,49 @@
                 conversation. Feel free to reach out — let's create something amazing together!</p>
         </div>
         </div>
+        <div class="body">
         <div class = "workPromotion">
             <div class ="workPromotionTextLeft">
                 <p style="font-size: 2em; font-weight: bold; font-family: serif;">To find out more about my work history click here</p>
             </div>
+            <div class="workPromotionDeco"></div>
                 <div class ="workPromotionTextRight">
                     <div class="workHistoryButton1">
-                        <button class="workHistory"><a style="color: white;" href="/resume/blockHistory.html">Work History</a></button>
+                        <button type="button" class="workHistory"><a style="color: black; text-decoration: none;" href="/resume/blockHistory.html">Work History</a></button>
                     </div>
                 </div>
         </div>
+    </div>
+        <div class="body">
+        <div class = "socials">
+            <div class ="socialLinks">
+                <div class="twitter">                
+                <a href="https://x.com/Chandy_Land12" target="_blank"><i class="fa-brands fa-x-twitter fa-8x"></i></a>
+            </div>
+            <div class ="linkedin">
+                <a href="https://www.linkedin.com/in/chad-loiseau-56583493/" target="_blank"><i class="fa-brands fa-linkedin-in fa-8x"></i></a> 
+            </div>
+            <div class="instagram">
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-8x"></i></a>
+            </div>
+            </div>
+                <div class ="socialTextRight">
+                    <p style="font-size: 2em; font-weight: bold; font-family: serif;">Social Links!</p>
+                    </div>
+                </div>
+        </div>
+        <div class="body">
+            <div class = "college">
+                <div class ="uvu">
+                    <p style="font-size: 2em; font-weight: bold; font-family: serif; margin-bottom: 0px;">College </p>
+                    <p style="margin-top: 0px">(2012 to 2016)</p>
+                </div>
+                <div class="workPromotionDeco"></div>
+                    <div class ="college1">
+                        <img src="https://seeklogo.com/images/U/utah-valley-university-uvu-logo-62AB96E05F-seeklogo.com.png" alt="uvuLogo" id="uvuLogo">
+                        </div>
+                    </div>
+            </div>
     </div>
         <div class="globalFooter">
             <div class="chadFoot"><p>CHAD INC</p></div>
