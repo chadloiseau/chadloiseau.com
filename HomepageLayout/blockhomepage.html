@@ -10,7 +10,6 @@
     <style>
         body{
             background-color: lightblue;
-            text-align: center;
         }
         .whiteBackground{
             Margin: 4em;
@@ -53,7 +52,6 @@
             display: flex;
             text-align: center;
             justify-content: center;
-            align-items: center;
            }
             
         .aboutMe{
@@ -85,18 +83,6 @@
            #aboutMe1{
             margin-top: 1.5%;
             font-family: serif;
-           }
-
-           .dice{
-            width: 50px;
-            height: 50px;
-            border: 2px;
-            text-align: center;
-            border-style: solid;
-            border-color: black;
-            animation-name: square;
-            animation-duration: 5s;
-            animation-iteration-count: 1;
            }
 
        @media only screen and (max-width: 600px){
@@ -175,49 +161,31 @@
         }
 
         .workPromotion{
-            width: 100%;
+            width: 98%;
             height: 400px;
-            border: 3px dotted blue;
-            display: inline;
-            margin-bottom: 3em;
-            margin-top: 3em;
-            align-items: center;
+            margin-top: 2em;
+            display: flex;
         }
         .workPromotionTextLeft{
-            display: block;
-            order: 1;
-            border: 2px dotted gray;
+            flex-basis: 50%;
             text-align: center;
-            width: 50%;
             align-content: center;
-            justify-content: center;
+
         }
         .workPromotionTextRight{
-            display: block;
-            width: 50%;
-            order: 2;
-            border: 2px dotted gray;
-            text-align: right;
-        }
-        .workHistoryButton1{
-            display: block;
-            width: 100%;
+            flex-basis: 50%;
+            text-align: center;
             align-content: center;
-            padding-left: 10%;
+            background-color: lightgray;
+            color: whtie;
+
         }
         .workHistory{
-        display: block;
-        width: 40ch;
-        height: 4em;
-        background-color: orangered;
-        color: white;
-        align-items: center;
+            color: white;
+            background-color: orangered;
+            width: 50%;
+            height: 4rem;
         }
-        .workHistory:hover{
-        background-color: blue;
-        text-align: right;
-    }
-
         .globalFooter {
             display: inline;
         }
@@ -230,11 +198,6 @@
         .chadFoot{
             float: right;
             margin-top: -1em;
-        }
-        .container{
-            display: block;
-            width: 150px;
-            margin: 0 auto;
         }
     </style>
 </head>
@@ -282,19 +245,15 @@
         </div>
         <div class = "workPromotion">
             <div class ="workPromotionTextLeft">
-                <div class="workHistoryButton">
-                    <button class="workHistory"><a href="/resume/blockHistory.html">Work History</a></button>
-                </div>
+                <p style="font-size: 2em; font-weight: bold; font-family: serif;">To find out more about my work history click here</p>
             </div>
                 <div class ="workPromotionTextRight">
                     <div class="workHistoryButton1">
-                        <button class="workHistory"><a href="/resume/blockHistory.html">Work History</a></button>
+                        <button class="workHistory"><a style="color: white;" href="/resume/blockHistory.html">Work History</a></button>
                     </div>
+                </div>
         </div>
-        </div>
-        <div id="container">
-            <button>test shitty button</button>
-        </div>
+    </div>
         <div class="globalFooter">
             <div class="chadFoot"><p>CHAD INC</p></div>
             <div class="footerNav">

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Practice</title>
+    <style>
+        .body{
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            width: 95%;
+            height: 500px;
+            border: 2px solid black;
+            display: flex;
+        }
+        .left{
+            background-color: green;
+            flex-basis: 50%;
+            text-align: right;
+        }
+        .right{
+            background-color: lightblue;
+            flex-basis: 50%;
+            text-align: center;
+            align-content: center;
+        }
+        .leftButton{
+            display: block;
+            width: 100%;
+        }
+        button{
+            width: 50%;
+            background-color: orangered;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+    <div class="container">
+        <div class="left">
+            <div class="leftButton">
+                <button>Left</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="rightButton">
+                <button>right</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
