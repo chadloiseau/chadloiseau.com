@@ -1,0 +1,7 @@
+#output{
+    width: 400px;
+    height: auto;
+    border: 4px, solid, blue;
+    background-color: lightgray;
+    text-align: center;
+}

@@ -58,4 +58,3 @@ while (rapperCounter < rappers.length){
     document.getElementById("output").innerHTML += rappers[rapperCounter] + "<br/>";    
     rapperCounter++;
 }
-
