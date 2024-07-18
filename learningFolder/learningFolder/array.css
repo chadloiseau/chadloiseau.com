@@ -1,0 +1,18 @@
+#output{
+    border: 2px, solid, black;
+    width: 100%;
+    height: auto;
+    font-size: xx-large;
+    flex-basis: 40%;
+}
+
+
+#test{
+    border: 2px, solid, black;
+    width: 100%;
+    height: auto;
+    font-size: xx-large;
+    flex-basis: 40%;
+    background-color: blueviolet;
+
+}
